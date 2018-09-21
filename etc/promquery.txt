@@ -1,1 +1,5 @@
 sum(all_errors_total) by (version)
+
+curl 'http://localhost:9090/api/v1/query?query=sum%28all_errors_total%29%20by%20%28version%29&time=2018-08-20T12:22:50.000Z'
+
+curl 'http://localhost:9090/api/v1/query?query=sum%28all_errors_total%29%20by%20%28version%29&time=2018-08-20T12:21:50.000Z'
